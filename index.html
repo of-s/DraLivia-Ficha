@@ -251,10 +251,10 @@
       out.push(E.diam+" *Valores da consulta* (decididos no dia): Pix R$ 690 · Cartão R$ 740 (2x) / R$ 850 (3-10x)");
       out.push("");out.push(comprovante);
     } else if(pg==="Cartão"){
-      out.push(E.money+" *A pagar:*");out.push("R$ 650 (cartão, 2x)");out.push("");
+      out.push(E.money+" *A pagar:*");out.push("R$ 690 (cartão, 2x)");out.push("");
       out.push(E.card+" *Cartão:* link enviado pela secretária");
     } else {
-      out.push(E.money+" *A pagar:*");out.push("R$ 600 (Pix)");out.push("");
+      out.push(E.money+" *A pagar:*");out.push("R$ 620 (Pix)");out.push("");
       out=out.concat(pixLinhas(rv("pnf")==="Sim"));out.push("");out.push(comprovante);
     }
     return out;
@@ -305,8 +305,8 @@
         '<p style="margin:9px 0 0"><b>Inclui:</b> consulta completa + avaliação microscópica + retorno em até 30 dias.</p></div></div>';
     }
     return '<div class="preco"><p class="tp">💻 Consulta online</p>'+
-      '<div class="big">R$ 600<small>no Pix (à vista)</small></div>'+
-      '<p class="alt">ou <b>R$ 650</b> no cartão (até 2x sem juros)</p>'+
+      '<div class="big">R$ 620<small>no Pix (à vista)</small></div>'+
+      '<p class="alt">ou <b>R$ 690</b> no cartão (até 2x sem juros)</p>'+
       '<div class="taxabox">💠 Você paga o <b>valor integral</b> ao agendar (garante o seu horário)</div>'+
       '<div class="inc">💜 Inclui consulta + análise + retorno em 30 dias</div>'+
       '<button class="vermais" type="button" onclick="toggleDet()">Ver detalhes <span class="vm-arr">⌄</span></button>'+
